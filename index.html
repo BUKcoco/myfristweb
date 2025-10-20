@@ -6,43 +6,50 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      background-color: #fff;
       margin: 0;
       padding: 0;
+      background-color: #f4f4f4;
     }
     header {
-      background-color: #000;
-      color: #fff;
+      background-color: #222;
+      color: white;
       padding: 20px;
       display: flex;
       align-items: center;
-      justify-content: space-between;
     }
     header img {
       height: 60px;
+      margin-right: 15px;
     }
-    nav a {
-      color: #fff;
-      margin-left: 20px;
-      text-decoration: none;
-      font-weight: bold;
+    h1 {
+      font-size: 28px;
+      margin: 0;
     }
     .container {
-      padding: 40px;
+      display: flex;
+      justify-content: space-around;
+      margin: 40px 20px;
+      flex-wrap: wrap;
+    }
+    .bike {
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      width: 300px;
+      margin: 20px;
+      padding: 15px;
       text-align: center;
     }
-    .model {
-      margin-bottom: 40px;
-    }
-    .model img {
-      width: 300px;
+    .bike img {
+      width: 100%;
       height: auto;
-      border-radius: 8px;
+      border-radius: 6px;
     }
-    .model h2 {
-      margin: 10px 0 5px;
+    .bike h2 {
+      margin: 15px 0 10px;
+      font-size: 20px;
     }
-    .model p {
+    .bike p {
       font-size: 18px;
       color: #333;
     }
@@ -50,31 +57,23 @@
 </head>
 <body>
   <header>
-    <img src="https://copilot.microsoft.com/th/id/BCO.0687a020-2a6f-4095-bf44-576aa6c9cc62.png" alt="Tianmimi Motors Drive Logo">
-    <nav>
-      <a href="#">หน้าแรก</a>
-      <a href="#">รุ่นรถ</a>
-      <a href="#">ติดต่อ</a>
-    </nav>
+    <img src="https://copilot.microsoft.com/th/id/BCO.ece2b5f4-4d99-46ac-9e00-b90642cb1db4.png" alt="Tianmimi Motors Drive Logo">
+    <h1>Tianmimi Motors Drive</h1>
   </header>
 
   <div class="container">
-    <h1>รถมอเตอร์ไซค์จาก Tianmimi Motors Drive</h1>
-
-    <div class="model">
-      <img src="https://copilot.microsoft.com/th/id/BCO.8440f584-5ce6-4983-ba72-705fefab105e.png" alt="Tianmimi Drive Classic 125">
+    <div class="bike">
+      <img src="https://example.com/classic125.jpg" alt="Tianmimi Drive Classic 125">
       <h2>Tianmimi Drive Classic 125</h2>
       <p>ราคา 47,900 บาท</p>
     </div>
-
-    <div class="model">
-      <img src="https://copilot.microsoft.com/th/id/BCO.403fa745-73b8-4867-8d87-d1c13c9e819c.png" alt="Tianmimi Drive Urban 125">
+    <div class="bike">
+      <img src="https://example.com/urban125.jpg" alt="Tianmimi Drive Urban 125">
       <h2>Tianmimi Drive Urban 125</h2>
       <p>ราคา 52,900 บาท</p>
     </div>
-
-    <div class="model">
-      <img src="https://copilot.microsoft.com/th/id/BCO.4403b480-76d2-458e-b4a0-4f7ac6809852.png" alt="Tianmimi Drive Sport 150">
+    <div class="bike">
+      <img src="https://example.com/sport150.jpg" alt="Tianmimi Drive Sport 150">
       <h2>Tianmimi Drive Sport 150</h2>
       <p>ราคา 65,900 บาท</p>
     </div>
